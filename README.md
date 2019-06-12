@@ -3,6 +3,8 @@
 Resources for the SEDHYD 2019 conference (24-28 June 2019).
 
 
+# Extended Abstract
+
 **Exploring Surface Processes Using the Community Surface Dynamics
 Modeling System Modeling Tools**
 
@@ -122,14 +124,12 @@ Modeling Framework (ESMF) grid mapping library. This allows for
 efficient mapping of values between large grids. Other coupling tools
 include:
 
-> • Unit conversion utilities, which conform to the cfunits conventions,
-> when models provide the same values but with different units,
->
-> • Time interpolators that estimate state variables between model
-> timesteps,
->
-> • Output writers that write model output to standardized netCDF files
-> that conform to the UGRID/SGRID specifications
+*  Unit conversion utilities, which conform to the cfunits conventions,
+   when models provide the same values but with different units,
+*  Time interpolators that estimate state variables between model
+   timesteps,
+*  Output writers that write model output to standardized netCDF files
+   that conform to the UGRID/SGRID specifications
 
 PyMT is designed to expedite the process of exploring ideas, testing
 hypotheses, and comparing models with data, and make Earth-surface
@@ -168,9 +168,8 @@ topographic evolution over long timescales.
 
 The implementation of OverlandFlow and DetachmentLtdErosion is just one
 example of coupled hydrology-sedimentology modeling available through
-PyMT. This presentation will
-
-provide detailed background on how models can be brought into the PyMT
+PyMT. This presentation will provide detailed background on how models
+can be brought into the PyMT
 framework, how PyMT resolves grid and temporal differences across
 models, the existing hydrologic and sedimentologic tools in PyMT, and
 examples of model output from the OverlandFlow and DetachmentLtdErosion
@@ -178,36 +177,21 @@ models.
 
 **References**
 
-Adams, J.M., Gasparini, N.M., Hobley, D.E., Tucker, G.E., Hutton, E.,
-Nudurupati, S.S. and
-
-> Istanbulluoglu, E., 2017. The Landlab v1.0 OverlandFlow component: a
-> Python tool for computing shallow-water flow across watersheds.
-> Geoscientific Model Development, 10(4).
-
-Brunner, G. W. (2016). HEC-RAS river analysis system 2D modeling user's
-manual. US Army
-
-> Corps of Engineers---Hydrologic Engineering Center, 1-171.
-
-Gochis, D.J., M. Barlage, A. Dugger, K. FitzGerald, L. Karsten, M.
-McAllister, J. McCreight, J.
-
-> Mills, A. RafieeiNasab, L. Read, K. Sampson, D. Yates, W. Yu, 2018.
-> The WRF-Hydro modeling system technical description, (Version 5.0).
-> NCAR Technical Note. 107 pages. DOI:10.5065/D6J38RBJ
-
-Hobley, D.E., Adams, J.M., Nudurupati, S.S., Hutton, E.W., Gasparini,
-N.M., Istanbulluoglu, E.
-
-> and Tucker, G.E., 2017. Creative computing with Landlab: an
-> open-source toolkit for building, coupling, and exploring
-> two-dimensional numerical models of Earth-surface dynamics. Earth
-> Surface Dynamics, 5(1), p.21.
-
-USDA ARS Grassland Soil and Water Research Laboratory; Texas A&M
-AgriLife Research,
-
-> 2018\. SWAT - Soil and Water Assessment Tool. USDA Agricultural Research
-> Service; Texas A&M AgriLife Research.
-> https://data.nal.usda.gov/dataset/swat-soil-and-water- assessment-tool
+*  Adams, J.M., Gasparini, N.M., Hobley, D.E., Tucker, G.E., Hutton, E.,
+   Nudurupati, S.S. and Istanbulluoglu, E., 2017. The Landlab v1.0 OverlandFlow
+   component: a Python tool for computing shallow-water flow across watersheds.
+   Geoscientific Model Development, 10(4).
+*  Brunner, G. W. (2016). HEC-RAS river analysis system 2D modeling user's
+   manual. US Army Corps of Engineers---Hydrologic Engineering Center, 1-171.
+*  Gochis, D.J., M. Barlage, A. Dugger, K. FitzGerald, L. Karsten, M.  McAllister,
+   J. McCreight, J.  Mills, A. RafieeiNasab, L. Read, K. Sampson, D. Yates,
+   W. Yu, 2018.  The WRF-Hydro modeling system technical description,
+   (Version 5.0).  NCAR Technical Note. 107 pages. DOI:10.5065/D6J38RBJ
+*  Hobley, D.E., Adams, J.M., Nudurupati, S.S., Hutton, E.W., Gasparini, N.M.,
+   Istanbulluoglu, E.  and Tucker, G.E., 2017. Creative computing with Landlab:
+   an open-source toolkit for building, coupling, and exploring two-dimensional
+   numerical models of Earth-surface dynamics. Earth Surface Dynamics, 5(1), p.21.
+*  USDA ARS Grassland Soil and Water Research Laboratory; Texas A&M AgriLife
+   Research, 2018\. SWAT - Soil and Water Assessment Tool. USDA Agricultural
+   Research Service; Texas A&M AgriLife Research.
+   https://data.nal.usda.gov/dataset/swat-soil-and-water- assessment-tool
