@@ -1,9 +1,22 @@
-# sedhyd-2019
+# sedhyd-2019 💧
 
 Resources for the SEDHYD 2019 conference (24-28 June 2019).
 
+## Links 🔗
 
-# Extended Abstract
+* [Community Surface Dynamics Modeling System
+  (CSDMS)](http://csdms.colorado.edu)
+* [Basic Model Interface (BMI)](http://bmi.readthedocs.io)
+* [Python Modeling Toolkit (pymt)](http://pymt.readthedocs.io)
+* [SEDHYD 2019](http://www.sedhyd.org/2019)
+
+## Get Started 🚀
+
+Install *pymt* using the *conda* package manager,
+
+    $ conda env create --file=environment.yml
+
+# Extended Abstract 📃
 
 **Exploring Surface Processes Using the Community Surface Dynamics
 Modeling System Modeling Tools**
