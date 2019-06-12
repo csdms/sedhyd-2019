@@ -1,0 +1,14 @@
+# A conda env for the sedhyd 2019 demo
+#
+# Install with:
+#
+#    $ conda env create --file=environment.yml
+
+name: sedhyd
+channels:
+  - conda-forge/label/dev
+  - conda-forge
+dependencies:
+  - python
+  - pymt
+  - notebook
