@@ -166,6 +166,8 @@ more efforts have been made to bring hydrodynamics into models of
 landscape evolution. The Landlab OverlandFlow model is an open-source
 tool designed to achieve that goal.
 
+![Figure 1][overland_flow.png]
+
 **Figure 1**. Comparison of steady (**a**) and nonsteady (**b**)
 hydrology models. The latter case illustrates how the OverlandFlow model
 is implemented. A sample OverlandFlow workflow is also shown.
